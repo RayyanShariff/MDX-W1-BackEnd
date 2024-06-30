@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(241, 186, 138);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.background-image {
+    /* background-image: url('Pic.png');  */
+    background-size: cover;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(241, 186, 138);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    border: 3px solid rgb(129, 65, 244);
+    padding: 10px;
+    display: inline-block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.add-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-item input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.add-item button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
