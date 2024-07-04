@@ -17,9 +17,14 @@
     </div>
     
     <div class="background-image">
-        <div class="container">
+
+        <div class="heading">
             <h1>Home To do List</h1>
-            <form>
+        </div>
+
+        <div class="container">
+            
+            <form id="myForm">
                 <div class="todo-item">
                     <input type="checkbox" id="item1">
                     <label for="item1">Cook a meal</label>
@@ -36,12 +41,20 @@
                     <input type="checkbox" id="item4">
                     <label for="item4">Review notes</label>
                 </div>
+                <div class="todo-item">
+                    <input type="checkbox" id="item5">
+                    <label for="item4">Review notes</label>
+                </div>
+                
                 <div class="add-item">
-                    <input type="text" placeholder="Add new task">
+                    <input type="text" id="newTask" placeholder="Add new task">
                     <button type="submit">+</button>
                 </div>
             </form>
+
         </div>
+        
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
